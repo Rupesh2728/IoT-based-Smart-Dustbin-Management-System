@@ -24,8 +24,7 @@
 
 <h2 align="left">Overall Workflow</h2>
 
-![image](https://github.com/user-attachments/assets/a96e2c0e-61f8-4841-9640-382b45690b8e)
-
+![image](https://github.com/user-attachments/assets/d8543135-e9c3-491a-9111-53fe5adbc0a2)
 
 <h2 align="left">Features</h2>
 
