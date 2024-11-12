@@ -103,3 +103,4 @@ npm run dev
 
 - 👨‍💻 Project is available at [https://github.com/Rupesh2728/IoT-based-Smart-Dustbin-Management-System.git]
   
+- 👨‍💻 Firebase A/c MailID : **rupesh.p21@iiits.in**
