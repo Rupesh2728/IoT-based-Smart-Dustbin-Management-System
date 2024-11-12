@@ -1,0 +1,97 @@
+.map-container {
+  position: relative;
+  width: 100%;
+  max-width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100vw;
+  height: 100vh;
+}
+
+.marker {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.location-image {
+  width: 3vw;
+  height: auto;
+}
+
+.popup {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 1.2vw;
+  display: none;
+  white-space: nowrap;
+}
+
+.marker:hover .popup {
+  display: block;
+}
+
+.show-line-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.line-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.line-overlay line {
+  stroke: gray;
+  stroke-width: 3;
+  stroke-dasharray: 4;
+}
+
+.line-overlay polyline {
+  stroke: blue;
+  stroke-width: 3;
+}
+
+.optimized-cost{
+  position: absolute;
+  font-weight: 600;
+  padding: 0.75rem;
+  bottom: 2rem;
+  background-color: #dc5414;
+  color: white;
+  border-radius: 1rem;
+  left : 2rem;
+}
+
+.optimized-path
+{
+  position: absolute;
+  font-weight: 600;
+  padding: 0.75rem;
+  bottom: 2rem;
+  background-color: #dc5414;
+  color: white;
+  border-radius: 1rem;
+  left : 20rem;
+}
